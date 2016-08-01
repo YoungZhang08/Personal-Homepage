@@ -1,0 +1,120 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url('./image/003.jpg');
+}
+.photo{
+	width: 100%;
+	position: relative;	
+}
+.photo_1{
+	position: absolute;
+	left: 5%;
+	margin-top: 5%;
+}
+.photo_1 img{
+	-webkit-transform:rotate(8deg);
+}
+.photo_1:hover img{
+	width: 230px;
+	height: 230px;
+	-webkit-transition-duration:5s;
+	-webkit-transform:rotate(360deg); /* Safari and Chrome */
+}
+.photo_2{
+	position: absolute;
+	left: 25%;
+	margin-top: 4%;
+}
+.photo_2 img{
+	-webkit-transform:rotate(-9deg); /* Safari and Chrome */
+}
+.photo_2:hover img{
+	-webkit-transition-duration:3s;
+	-webkit-transform: skew(15deg,15deg);	/* Safari and Chrome */
+}
+.photo_3{
+	position: absolute;
+	left: 65%;
+	margin-top: 3%;
+}
+.photo_3 img{
+	-webkit-transform:rotate(6deg); /* Safari and Chrome */
+}
+.photo_3:hover img{
+	-webkit-transition-duration:3s;
+	-webkit-transform: translate(50px,50px);
+}
+.photo_4{
+	position: absolute;
+	left: 85%;
+	margin-top: 5%;
+}
+.photo_4 img{
+	-webkit-transform:rotate(-6deg); /* Safari and Chrome */
+}
+.photo_4:hover img{
+	-webkit-transition-duration:3s;
+	-webkit-transform: scale(2,2);
+}
+.photo_5{
+	position: absolute;
+	left: 5%;
+	margin-top: 25%;
+}
+.photo_5 img{
+	-webkit-transform:rotate(-6deg); /* Safari and Chrome */
+}
+.photo_5:hover img{
+	-webkit-transition-duration:3s;
+	-webkit-transform: rotate(45deg);	/* Safari 和 Chrome */
+	-webkit-transform-origin:20% 40%;	/* Safari 和 Chrome */
+}
+.photo_6{
+	position: absolute;
+	left: 26%;
+	margin-top: 25%;
+}
+.photo_6 img{
+	-webkit-transform:rotate(8deg); /* Safari and Chrome */
+	-webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+}
+.photo_6:hover img{
+	width: 250px;
+	height: 250px;
+}
+.photo_7{
+	position: absolute;
+	left: 65%;
+	margin-top: 25%;
+}
+.photo_7 img{
+	-webkit-transform:rotate(-7deg); /* Safari and Chrome */	
+}
+.photo_7:hover img{
+	width: 230px;
+	height: 230px;
+	-webkit-transition-duration:5s;
+	-webkit-transform:rotate(-360deg); /* Safari and Chrome */
+}
+.photo_8{
+	position: absolute;
+	left: 85%;
+	margin-top: 25%;
+}
+.photo_8 img{
+	-webkit-transform:rotate(9deg); /* Safari and Chrome */	
+}
+.photo_8:hover img{
+	-webkit-transition-duration:3s;
+	-webkit-transform: skew(-15deg,-15deg);	/* Safari and Chrome */
+}
+.foot{
+	width: 90%;
+	margin: 3% auto; 
+}
+.foot p{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}

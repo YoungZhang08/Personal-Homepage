@@ -1,0 +1,30 @@
+.footer{
+	margin-top: 2%;
+	width: 100%;
+	background-color: #E8F2FA;
+}
+.footer ul{
+	width: 48%;
+	margin: 0 auto;
+}
+.footer ul li{
+	padding: 5px 52px;
+	display: inline-block;
+	list-style-type: none;
+	font-weight: bold;
+	font-size: 20px;
+	color: #818181;
+	text-decoration: none;
+}
+.footer ul li:hover{
+	color: #F86F27;
+	text-decoration: underline;
+}
+.s a{
+	display: inline-block;
+	padding: 5px 70px;
+}
+.s{
+	width: 48%;
+	margin: 0 auto;
+}

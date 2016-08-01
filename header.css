@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	background-image: url('./image/background.jpg');
+	background-attachment:fixed;
+}
+.header{
+	width: 100%;
+	text-align: center;
+	background-color: #F7FAFD; 
+}
+.header ul li{
+	display: inline-block;
+	padding: 10px 30px;
+}
+.header ul li a{
+	color: #696E78;
+	font-size: 20px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.header ul li a:hover{
+	color: #F9732D;
+}

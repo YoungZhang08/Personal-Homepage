@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	background-image: url('./image/001.jpg');
+	background-attachment: fixed;
+}
+.homepage{
+	width: 100%;		 
+}
+.content{
+	width: 45%;
+	margin: 0 auto;
+}
+.content_1{
+	width: 100%;
+}
+input{
+	width: 88%;
+	height: 30px;
+	outline: none;
+}
+button{
+	display: inline-block;
+	width: 10%;
+	height: 31.8px;
+	background-color: #3495AA;
+	border: hidden;
+}
+button a{
+	color: white;
+	text-decoration: none;
+}
+.content_2{
+
+	width: 100%;
+	border-bottom: 0.5px solid #F3F3F3;
+}
+.content_1_1{
+	color: white;
+	margin-top: 8%;
+	width: 100%; 
+	font-size: 18px;
+}
+.time{
+	color: white;
+	font-weight: bold;
+	width: 20%;
+	margin-left: 80%; 
+	margin-top: 2%;
+}
