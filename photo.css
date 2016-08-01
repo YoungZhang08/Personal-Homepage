@@ -13,13 +13,13 @@ body{
 	margin-top: 5%;
 }
 .photo_1 img{
-	-webkit-transform:rotate(8deg);
+	transform:rotate(8deg);
 }
 .photo_1:hover img{
 	width: 230px;
 	height: 230px;
-	-webkit-transition-duration:5s;
-	-webkit-transform:rotate(360deg); /* Safari and Chrome */
+	transition-duration:5s;
+	transform:rotate(360deg); /* Safari and Chrome */
 }
 .photo_2{
 	position: absolute;
@@ -27,11 +27,11 @@ body{
 	margin-top: 4%;
 }
 .photo_2 img{
-	-webkit-transform:rotate(-9deg); /* Safari and Chrome */
+	transform:rotate(-9deg); /* Safari and Chrome */
 }
 .photo_2:hover img{
-	-webkit-transition-duration:3s;
-	-webkit-transform: skew(15deg,15deg);	/* Safari and Chrome */
+	transition-duration:3s;
+	transform: skew(15deg,15deg);	/* Safari and Chrome */
 }
 .photo_3{
 	position: absolute;
@@ -39,11 +39,11 @@ body{
 	margin-top: 3%;
 }
 .photo_3 img{
-	-webkit-transform:rotate(6deg); /* Safari and Chrome */
+	transform:rotate(6deg); /* Safari and Chrome */
 }
 .photo_3:hover img{
-	-webkit-transition-duration:3s;
-	-webkit-transform: translate(50px,50px);
+	transition-duration:3s;
+	transform: translate(50px,50px);
 }
 .photo_4{
 	position: absolute;
@@ -51,11 +51,11 @@ body{
 	margin-top: 5%;
 }
 .photo_4 img{
-	-webkit-transform:rotate(-6deg); /* Safari and Chrome */
+	transform:rotate(-6deg); /* Safari and Chrome */
 }
 .photo_4:hover img{
-	-webkit-transition-duration:3s;
-	-webkit-transform: scale(2,2);
+	transition-duration:3s;
+	transform: scale(2,2);
 }
 .photo_5{
 	position: absolute;
@@ -63,12 +63,12 @@ body{
 	margin-top: 25%;
 }
 .photo_5 img{
-	-webkit-transform:rotate(-6deg); /* Safari and Chrome */
+	transform:rotate(-6deg); /* Safari and Chrome */
 }
 .photo_5:hover img{
-	-webkit-transition-duration:3s;
-	-webkit-transform: rotate(45deg);	/* Safari 和 Chrome */
-	-webkit-transform-origin:20% 40%;	/* Safari 和 Chrome */
+	transition-duration:3s;
+	transform: rotate(45deg);	/* Safari 和 Chrome */
+	transform-origin:20% 40%;	/* Safari 和 Chrome */
 }
 .photo_6{
 	position: absolute;
@@ -76,8 +76,8 @@ body{
 	margin-top: 25%;
 }
 .photo_6 img{
-	-webkit-transform:rotate(8deg); /* Safari and Chrome */
-	-webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+	transform:rotate(8deg); /* Safari and Chrome */
+	transition: width 2s, height 2s, transform 2s;
 }
 .photo_6:hover img{
 	width: 250px;
@@ -89,13 +89,13 @@ body{
 	margin-top: 25%;
 }
 .photo_7 img{
-	-webkit-transform:rotate(-7deg); /* Safari and Chrome */	
+	transform:rotate(-7deg); /* Safari and Chrome */	
 }
 .photo_7:hover img{
 	width: 230px;
 	height: 230px;
-	-webkit-transition-duration:5s;
-	-webkit-transform:rotate(-360deg); /* Safari and Chrome */
+	transition-duration:5s;
+	transform:rotate(-360deg); /* Safari and Chrome */
 }
 .photo_8{
 	position: absolute;
@@ -103,11 +103,11 @@ body{
 	margin-top: 25%;
 }
 .photo_8 img{
-	-webkit-transform:rotate(9deg); /* Safari and Chrome */	
+	transform:rotate(9deg); /* Safari and Chrome */	
 }
 .photo_8:hover img{
-	-webkit-transition-duration:3s;
-	-webkit-transform: skew(-15deg,-15deg);	/* Safari and Chrome */
+	transition-duration:3s;
+	transform: skew(-15deg,-15deg);	/* Safari and Chrome */
 }
 .foot{
 	width: 90%;
